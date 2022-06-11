@@ -34,7 +34,12 @@ jobs:
           from_branch: posts
           target_branch: master
           github_token: ${{ github.token }}
-
+          
+      - name: Install dependencies
+        working-directory: ./hexo
+        run: |
+          npm i -g hexo-cli
+          npm i
       # Runs a set of commands using the runners shell
       - name: merge posts
         working-directory: ./hexo
