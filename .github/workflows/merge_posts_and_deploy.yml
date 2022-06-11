@@ -37,9 +37,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: merge posts
+        working-directory: ./hexo
         run: |
-          cd ./hexo,
-          hexo g.
+          hexo g
           
       - name: Commit files
         run: |
