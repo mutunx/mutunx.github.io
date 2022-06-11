@@ -40,8 +40,9 @@ jobs:
         run: |
           npm i -g hexo-cli
           npm i
+          git clone https://github.com/klugjo/hexo-theme-clean-blog.git themes/clean-blog
       # Runs a set of commands using the runners shell
-      - name: merge posts
+      - name: deploy
         working-directory: ./hexo
         run: |
           hexo g
