@@ -33,7 +33,7 @@ jobs:
         run: |
           npm i -g hexo-cli
           npm i
-          git clone https://github.com/klugjo/hexo-theme-clean-blog.git ./clean-blog
+          git clone https://github.com/klugjo/hexo-theme-clean-blog.git themes/clean-blog
 
           hexo g
           
