@@ -26,14 +26,16 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-
+      - name: Install dependencies
+        run: |
+          git submodule init
           
       - name: Install dependencies
         working-directory: ./hexo
         run: |
           npm i -g hexo-cli
           npm i
-          git clone https://github.com/klugjo/hexo-theme-clean-blog.git themes/clean-blog
+          
 
           hexo g
           
