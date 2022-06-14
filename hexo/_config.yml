@@ -107,25 +107,18 @@ theme_config:
     Github:
       url: https://github.com/klugjo/hexo-theme-clean-blog
       icon: github
-
   # Title on top left of menu. Leave empty to use main blog title
   menu_title: 人间探索录
-
   # URL of the Home page image
-  index_cover: asset/home-bg.jpg
-
+  index_cover: /asset/home-bg.jpg
   # Default post title
   default_post_title: 无名
-
   # Google Analytics Tracking ID
   google_analytics:
-
   # Addthis ID
   addthis:
-
   # set your own favicon
-  favicon: asset/favicon.ico
-
+  favicon: /asset/favicon.ico
   # Social Accounts
   twitter_url:
   twitter_handle:
@@ -134,6 +127,7 @@ theme_config:
   gitlab_url:
   linkedin_url:
   mailto:
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
