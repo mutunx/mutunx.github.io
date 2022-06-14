@@ -110,7 +110,7 @@ theme_config:
   # Title on top left of menu. Leave empty to use main blog title
   menu_title: 人间探索录
   # URL of the Home page image
-  index_cover: img/home-bg.jpg
+  index_cover: img/home-cover.jpg
   # Default post title
   default_post_title: 无名
   # Google Analytics Tracking ID
