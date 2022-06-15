@@ -114,7 +114,7 @@ theme_config:
   # Default post title
   default_post_title: 无名
   # Google Analytics Tracking ID
-  google_analytics:
+  google_analytics: G-DFZ7SC3XB0
   # Addthis ID
   addthis:
   # set your own favicon
