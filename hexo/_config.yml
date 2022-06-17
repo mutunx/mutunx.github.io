@@ -101,9 +101,9 @@ theme: clean-blog
 theme_config:
   menu:
     Home: /
-    Archives: /archives
-    Tags: /tags
-    Categories: /categories
+    记: /categories/记
+    研: /categories/研
+    悟: /categories/悟
     Github:
       url: https://github.com/klugjo/hexo-theme-clean-blog
       icon: github
