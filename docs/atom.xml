@@ -6,7 +6,7 @@
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   
   <link href="http://localhost:4000/"/>
-  <updated>2022-09-28T07:34:02.723Z</updated>
+  <updated>2022-09-28T07:38:36.750Z</updated>
   <id>http://localhost:4000/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>测试</title>
     <link href="http://localhost:4000/2022/09/28/%E6%B5%8B%E8%AF%95/"/>
     <id>http://localhost:4000/2022/09/28/%E6%B5%8B%E8%AF%95/</id>
-    <published>2022-09-28T07:34:02.723Z</published>
-    <updated>2022-09-28T07:34:02.723Z</updated>
+    <published>2022-09-28T07:38:36.750Z</published>
+    <updated>2022-09-28T07:38:36.750Z</updated>
     
     <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>a</p><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&quot;hello&quot;</span>);</span><br></pre></td></tr></table></figure><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><table><thead><tr><th>hello</th><th>hi</th><th>go</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>3</td></tr></tbody></table><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p><a href="https://www.baidu.com/">baidu</a></p>]]></content>
     
@@ -44,7 +44,7 @@
     <link href="http://localhost:4000/2022/08/30/JavaScript%20%E4%B8%AD%20firstChild%20%E5%92%8C%20firstElementChild%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/"/>
     <id>http://localhost:4000/2022/08/30/JavaScript%20%E4%B8%AD%20firstChild%20%E5%92%8C%20firstElementChild%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</id>
     <published>2022-08-30T00:00:00.000Z</published>
-    <updated>2022-09-28T07:34:02.723Z</updated>
+    <updated>2022-09-28T07:38:36.750Z</updated>
     
     <content type="html"><![CDATA[<p><code>firstChild</code> 获取第一个 <code>node</code> 节点不管什么类型<br><code>firstElementChild</code> 只获取第一个 <code>element</code> 类型的节点</p><h4 id="node-分为-element-node-comment-node-text-node"><a href="#node-分为-element-node-comment-node-text-node" class="headerlink" title="node 分为 element node / comment node / text node"></a>node 分为 element node / comment node / text node</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">div = <span class="built_in">document</span>.createElement(<span class="string">&#x27;div&#x27;</span>);</span><br><span class="line">&gt; <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">div.appendChild(<span class="built_in">document</span>.createTextNode(<span class="string">&quot;hello&quot;</span>))</span><br><span class="line">div.appendChild(<span class="built_in">document</span>.createComment(<span class="string">&quot;hello&quot;</span>))</span><br><span class="line">div.appendChild(<span class="built_in">document</span>.createElement(<span class="string">&quot;hello&quot;</span>))</span><br><span class="line">&gt; <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">    &quot;hello&quot;</span></span><br><span class="line"><span class="xml">    <span class="comment">&lt;!--hello--&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">hello</span>&gt;</span><span class="tag">&lt;/<span class="name">hello</span>&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
     
