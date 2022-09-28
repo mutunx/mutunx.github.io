@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: have fun aaas
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 山 荒
+subtitle: '山荒聊可田'
+description: '山荒聊可田'
+keywords: '博客,JavaScript,js,css,html'
+author: Wanhao Zhu
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://mutunx.github.io
+permalink: :year-:month-:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -98,6 +98,35 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: clean-blog
+theme_config:
+  menu:
+    Home: /
+    记: /categories/记
+    研: /categories/研
+    悟: /categories/悟
+    Github:
+      url: https://github.com/klugjo/hexo-theme-clean-blog
+      icon: github
+  # Title on top left of menu. Leave empty to use main blog title
+  menu_title: 人间探索录
+  # URL of the Home page image
+  index_cover: img/home-cover.jpg
+  # Default post title
+  default_post_title: 无名
+  # Google Analytics Tracking ID
+  google_analytics: G-DFZ7SC3XB0
+  # Addthis ID
+  addthis:
+  # set your own favicon
+  favicon: img/favicon.ico
+  # Social Accounts
+  twitter_url:
+  twitter_handle:
+  facebook_url:
+  github_url: 
+  gitlab_url:
+  linkedin_url:
+  mailto:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

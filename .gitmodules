@@ -1,3 +1,4 @@
 [submodule "hexo/themes/clean-blog"] 
-   path = hexo/themes/clean-blog 
-   url = https://github.com/klugjo/hexo-theme-clean-blog.git
+	path = hexo/themes/clean-blog
+	url = https://github.com/klugjo/hexo-theme-clean-blog.git
+
